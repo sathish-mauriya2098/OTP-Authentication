@@ -30,7 +30,7 @@
          if(isset($_POST['sendotp'])){
 require('textlocal.class.php');
 
-$textlocal = new Textlocal(false,false,'4ejiX36KmY8-q46TjWHgDPoTm1scD5HadZH2Zm1AgQ');
+$textlocal = new Textlocal(false,false,'your API');
 
 $numbers = array($_POST['mobile']);
 $sender = 'TXTLCL';
